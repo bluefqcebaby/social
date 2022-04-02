@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/social/static/css/main.f15797bd.css",
+    "main.js": "/social/static/js/main.e8e5920e.js",
+    "static/media/banner-profile.jpg": "/social/static/media/banner-profile.8e326f70e59c8e25979e.jpg",
+    "static/media/avatar.jpg": "/social/static/media/avatar.f089fac6112effaffc4d.jpg",
+    "static/media/wt.png": "/social/static/media/wt.26d77626697b9095a84d.png",
+    "index.html": "/social/index.html",
+    "main.f15797bd.css.map": "/social/static/css/main.f15797bd.css.map",
+    "main.e8e5920e.js.map": "/social/static/js/main.e8e5920e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f15797bd.css",
+    "static/js/main.e8e5920e.js"
+  ]
+}
