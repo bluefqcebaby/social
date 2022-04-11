@@ -7,59 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c215993-585d-4e5e-bf70-6a0093b2b94d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Aside/MenuItem/MenuItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CommonComponents/ContentBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Content.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/MiniProfile/MiniProfile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPost.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPostContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Posts/Post/Post.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/Posts/Posts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Friends/Friends.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Games/Games.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Groups/Groups.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Help/Help.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Messages/Dialog/Dialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Messages/DialogsElements/DialogsElements.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Messages/Message/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Messages/Messages.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Messages/MessagesElements/MessagesElements.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Messages/MessagesElements/MessagesElementsContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Music/Music.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/News.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/banner-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/chooper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/law-logo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/luffy-hat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/pikachu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/world-gov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/wt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/wtf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/handwrited-store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/aside-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/message-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-    </list>
+    <list default="true" id="9c215993-585d-4e5e-bf70-6a0093b2b94d" name="Changes" comment="redux-store added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,8 +96,23 @@
       <workItem from="1649652659448" duration="595000" />
       <workItem from="1649660368989" duration="1010000" />
       <workItem from="1649666422023" duration="595000" />
-      <workItem from="1649690633648" duration="4979000" />
+      <workItem from="1649690633648" duration="5294000" />
     </task>
+    <task id="LOCAL-00001" summary="redux-store added">
+      <created>1649703277329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649703277329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="redux-store added">
+      <created>1649703310365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649703310365</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +131,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="redux-store added" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux-store added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
