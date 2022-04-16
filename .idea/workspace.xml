@@ -8,34 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c215993-585d-4e5e-bf70-6a0093b2b94d" name="Changes" comment="redux-store added">
-      <change afterPath="$PROJECT_DIR$/src/components/Aside/AsideContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/ContentContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Friends/Friend/Friend.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Friends/FriendsContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Messages/MessagesContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/friedns/dima.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/friedns/dolboeb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/friedns/killer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/friends-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPostContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPostContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/Friends.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Messages/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/Messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Messages/MessagesElements/MessagesElementsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/MessagesElements/MessagesElementsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/handwrited-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/handwrited-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/aside-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/aside-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/message-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/message-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +123,7 @@
       <workItem from="1650010946900" duration="596000" />
       <workItem from="1650023677766" duration="236000" />
       <workItem from="1650025695742" duration="6312000" />
-      <workItem from="1650098355584" duration="546000" />
+      <workItem from="1650098355584" duration="1044000" />
     </task>
     <servers />
   </component>
