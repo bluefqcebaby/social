@@ -148,7 +148,7 @@ let handwritedStore = {
     this._renderEntireTree = observer;
   },
 
-  dispatcher(action) {
+  dispatch(action) {
     this._state.messagesPage = MessageReducer(this._state.messagesPage, action);
     this._state.profilePage = ProfileReducer(this._state.profilePage, action);
     this._state.aside = AsideReducer(this._state.aside, action);

@@ -8,20 +8,11 @@ import {Provider} from "react-redux";
 const container = document.getElementById('root');
 const root = createRoot(container);
 
-
-export const renderEntireTree = store => {
-  root.render(
-    <Provider store={store}>
-      <App store={store}/>
-    </Provider>
-  );
-};
-
-
-renderEntireTree(store);
-store.subscribe(() => {
-  renderEntireTree(store);
-});
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+)
 
 
 
