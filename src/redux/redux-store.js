@@ -2,13 +2,17 @@ import { combineReducers, createStore } from "redux";
 import messageReducer from "./reducers/message-reducer";
 import profileReducer from "./reducers/profile-reducer";
 import asideReducer from "./reducers/aside-reducer";
-import friendsReducer from "./reducers/friends-reducer";
+import usersReducer from "./reducers/users-reducer";
+import authReducer from "./reducers/auth-reducer";
+
+
 
 const reducers = combineReducers({
   profilePage: profileReducer,
   messagesPage: messageReducer,
-  friendsPage: friendsReducer,
+  usersPage: usersReducer,
   aside: asideReducer,
+  auth: authReducer,
 });
 
 const store = createStore(reducers);

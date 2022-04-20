@@ -1,4 +1,4 @@
-import { ADD_POST, POST_TEXT_CHANGE_HANDLER } from "../types";
+import { ADD_POST, POST_TEXT_CHANGE_HANDLER, UPDATE_USER } from "../types";
 import avatar from "../../img/avatar.jpg";
 import banner from "../../img/banner-profile.jpg";
 
@@ -10,21 +10,22 @@ const initialState = {
     avatar: avatar,
     banners: [banner, banner, banner],
   },
+  profileInfoAPI: null,
   posts: [
     {
-      id:1,
+      id: 1,
       text: "What@",
     },
     {
-      id:2,
+      id: 2,
       text: "Yaaay its so fun 🤨",
     },
     {
-      id:3,
+      id: 3,
       text: "#NOWAR 🥺🥺🥺",
     },
     {
-      id:4,
+      id: 4,
       text: " dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf dobre sdjhf s",
     },
   ],
@@ -36,7 +37,9 @@ const ProfileReducer = (state = initialState, action) => {
     case ADD_POST:
       return {
         ...state,
-        posts: [...state.posts, { text: state.newPostText }],
+        posts: state.newPostText.trim()
+          ? [...state.posts, { text: state.newPostText }]
+          : [...state.posts],
         newPostText: "",
       };
     case POST_TEXT_CHANGE_HANDLER:
@@ -44,17 +47,26 @@ const ProfileReducer = (state = initialState, action) => {
         ...state,
         newPostText: action.newText,
       };
+    case UPDATE_USER:
+      return {
+        ...state,
+        profileInfoAPI: action.user,
+      };
     default:
       return state;
   }
 };
 
-export const addPostActionCreator = () => ({
+export const addPostAC = () => ({
   type: ADD_POST,
 });
-export const postTextChangeActionCreator = (text) => ({
+export const postTextChangeAC = (text) => ({
   type: POST_TEXT_CHANGE_HANDLER,
   newText: text,
+});
+export const updateUserAC = (user) => ({
+  type: UPDATE_USER,
+  user,
 });
 
 export default ProfileReducer;

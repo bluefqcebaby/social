@@ -118,7 +118,7 @@ let handwritedStore = {
         {
           text: "Friends",
           logo: <BsPeopleFill />,
-          route: "/friends",
+          route: "/users",
         },
         {
           text: "Groups",

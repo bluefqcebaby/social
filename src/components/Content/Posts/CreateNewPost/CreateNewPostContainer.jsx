@@ -1,6 +1,6 @@
 import {
-  addPostActionCreator,
-  postTextChangeActionCreator,
+  addPostAC,
+  postTextChangeAC,
 } from "../../../../redux/reducers/profile-reducer";
 import CreateNewPost from "./CreateNewPost";
 import {useSelector, useDispatch} from "react-redux";
@@ -15,13 +15,13 @@ export default function CreateNewPostContainer(){
 
   const onTextChange = (e) => {
     const elem = e.target;
-    const action = postTextChangeActionCreator(elem.value);
+    const action = postTextChangeAC(elem.value);
     dispatch(action);
   }
 
   const addPost = (e) => {
     e.preventDefault();
-    const action = addPostActionCreator();
+    const action = addPostAC();
     dispatch(action);
   }
 

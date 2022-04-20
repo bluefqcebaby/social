@@ -8,8 +8,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c215993-585d-4e5e-bf70-6a0093b2b94d" name="Changes" comment="redux-store added">
+      <change afterPath="$PROJECT_DIR$/src/components/Content/DetailInfo/Chapter/Chapter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/DetailInfo/DetailInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Friends/Friend/User.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Friends/Users.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Friends/UsersContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainTemplate/MainTemplate.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_11_2022_10_05_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_11_2022_10_05_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_4_11_2022_10_05_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_4_11_2022_10_05_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/AsideContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/AsideContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommonComponents/ContentBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommonComponents/ContentBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/ContentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/ContentContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/MiniProfile/MiniProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/MiniProfile/MiniProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPostContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPostContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friend/Friend.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friends.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Friends/FriendsContainer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/DialogsElements/DialogsElements.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/DialogsElements/DialogsElements.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/handwrited-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/handwrited-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/aside-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/aside-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/friends-reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +72,16 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/@mantine/styles/lib/theme/types/MantineColor.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/@mantine/core/lib/components/Pagination/Pagination.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/workbox-strategies/plugins/cacheOkAndOpaquePlugin.d.ts" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,7 +99,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PLAIN_TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Friends" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -65,7 +109,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\lessgo_react\social\node_modules\prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,18 +118,29 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\lessgo_react\social\src\components\Friends" />
+      <recent name="C:\lessgo_react\social\src\components\Header" />
       <recent name="C:\lessgo_react\social\src\redux\reducers" />
+      <recent name="C:\lessgo_react\social\src\components\Friends" />
       <recent name="C:\lessgo_react\social\src\components\Messages" />
       <recent name="C:\lessgo_react\social\src\components\Content" />
-      <recent name="C:\lessgo_react\social\src\components\Content\Posts\CreateNewPost" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\lessgo_react\social\src\components\Content\DetailInfo" />
       <recent name="C:\lessgo_react\social\src\redux\reducers" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -98,6 +153,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,7 +183,22 @@
       <workItem from="1650010946900" duration="596000" />
       <workItem from="1650023677766" duration="236000" />
       <workItem from="1650025695742" duration="6312000" />
-      <workItem from="1650098355584" duration="1044000" />
+      <workItem from="1650098355584" duration="4815000" />
+      <workItem from="1650116327061" duration="6921000" />
+      <workItem from="1650138938789" duration="6897000" />
+      <workItem from="1650178836319" duration="1885000" />
+      <workItem from="1650180807323" duration="328000" />
+      <workItem from="1650181166097" duration="9431000" />
+      <workItem from="1650214100884" duration="4340000" />
+      <workItem from="1650221175603" duration="957000" />
+      <workItem from="1650222573358" duration="152000" />
+      <workItem from="1650278419198" duration="6219000" />
+      <workItem from="1650294161791" duration="10989000" />
+      <workItem from="1650349951915" duration="791000" />
+      <workItem from="1650368124470" duration="5554000" />
+      <workItem from="1650384887681" duration="5064000" />
+      <workItem from="1650443828780" duration="110000" />
+      <workItem from="1650443959277" duration="7257000" />
     </task>
     <servers />
   </component>

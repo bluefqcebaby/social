@@ -1,11 +1,11 @@
 import {
-  addPostActionCreator,
-  postTextChangeActionCreator,
+  addPostAC,
+  postTextChangeAC,
 } from "../../../../redux/reducers/profile-reducer";
 
 export default function CreateNewPost({submitHandler, newPostText, handleChange}) {
   return (
-    <form className='content-block group flex flex-col' onSubmit={submitHandler}>
+    <form className='content-block group flex flex-col flex-[2] h-min' onSubmit={submitHandler}>
       <textarea
         placeholder='New post ✏️'
         className='w-full transition resize-none outline-none h-24 focus:transition-all focus:border-b-[1px]'

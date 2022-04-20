@@ -1,15 +1,9 @@
-import styled from "styled-components";
 
 
-const Wrapper = styled.div`
-  padding: 4rem;
-  background: white;
-`
-
-export default function ContentBlock({children}) {
+export default function ContentBlock({children, className}) {
   return (
-    <Wrapper>
+    <div className={`p-4 bg-white rounded-lg shadow-md ${className}`}>
       {children}
-    </Wrapper>
+    </div>
   )
 }
