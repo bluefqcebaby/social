@@ -8,41 +8,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c215993-585d-4e5e-bf70-6a0093b2b94d" name="Changes" comment="redux-store added">
-      <change afterPath="$PROJECT_DIR$/src/components/Content/DetailInfo/Chapter/Chapter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Content/DetailInfo/DetailInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Friends/Friend/User.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Friends/Users.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Friends/UsersContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainTemplate/MainTemplate.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/users-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_11_2022_10_05_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_11_2022_10_05_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_4_11_2022_10_05_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_4_11_2022_10_05_PM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/asideSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/authSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/messagesSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/profileSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/usersSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/Aside.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Aside/AsideContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Aside/AsideContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CommonComponents/ContentBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommonComponents/ContentBlock.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/ContentContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/ContentContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/MiniProfile/MiniProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/MiniProfile/MiniProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/DetailInfo/DetailInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/DetailInfo/DetailInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPost.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPostContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPostContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friend/Friend.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friends.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Friends/FriendsContainer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Friends/Friend/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/Friend/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Friends/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Friends/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Friends/UsersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Messages/DialogsElements/DialogsElements.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/DialogsElements/DialogsElements.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/handwrited-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/handwrited-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/aside-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/aside-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/friends-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainTemplate/MainTemplate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainTemplate/MainTemplate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Messages/MessagesElements/MessagesElementsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Messages/MessagesElements/MessagesElementsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/aside-reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/auth-reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/message-reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/profile-reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/users-reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/types.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PLAIN_TEXT" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -118,11 +117,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\lessgo_react\social\src\redux" />
       <recent name="C:\lessgo_react\social\src\components\Header" />
       <recent name="C:\lessgo_react\social\src\redux\reducers" />
       <recent name="C:\lessgo_react\social\src\components\Friends" />
       <recent name="C:\lessgo_react\social\src\components\Messages" />
-      <recent name="C:\lessgo_react\social\src\components\Content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\lessgo_react\social\src\components\Content\DetailInfo" />
@@ -198,7 +197,16 @@
       <workItem from="1650368124470" duration="5554000" />
       <workItem from="1650384887681" duration="5064000" />
       <workItem from="1650443828780" duration="110000" />
-      <workItem from="1650443959277" duration="7257000" />
+      <workItem from="1650443959277" duration="18187000" />
+      <workItem from="1650473652960" duration="1336000" />
+      <workItem from="1650475890727" duration="2938000" />
+      <workItem from="1650525151096" duration="2739000" />
+      <workItem from="1650545299276" duration="838000" />
+      <workItem from="1650800331158" duration="9575000" />
+      <workItem from="1650824702425" duration="4687000" />
+      <workItem from="1650889112413" duration="395000" />
+      <workItem from="1650908744970" duration="1333000" />
+      <workItem from="1650913343517" duration="3000" />
     </task>
     <servers />
   </component>
@@ -225,6 +233,19 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux/handwrited-store.js</url>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/reducers/message-reducer.js</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/slices/asideSlice.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Content/Posts/CreateNewPost/CreateNewPostContainer.jsx</url>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

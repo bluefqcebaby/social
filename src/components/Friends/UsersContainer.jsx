@@ -1,71 +1,48 @@
 import { useDispatch, useSelector } from "react-redux";
-import {
-  changeIsLoadAC,
-  setUsersAmountAC,
-  setCurrentPageAC,
-  setUsersAC,
-  toggleFollowAC,
-} from "../../redux/reducers/users-reducer";
+
 import Users from "./Users";
-import {useEffect} from "react";
-import axios from "axios";
-import {Outlet, useParams} from 'react-router-dom';
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { usePagination } from "@mantine/hooks";
+import { fetchNewUsers, fetchFollow } from "../../redux/slices/usersSlice";
 
 export default function UsersContainer() {
-  const { users, allUsers, currentPage, contentPerPage, isLoad } = useSelector(
-    (state) => state.usersPage
+  const { users, allUsers, currentPage, contentPerPage, isLoad, isError } = useSelector(
+    state => state.usersPage
   );
   const dispatch = useDispatch();
-  const toggleFollow = (id) => {
-    dispatch(toggleFollowAC(id));
+  const [load, setLoad] = useState(false);
+  const apiToggleFollow = async (id, followed) => {
+    setLoad(true);
+    await dispatch(fetchFollow({ id, followed }));
+    setLoad(false);
   };
-  const setUsers = (users) => {
-    dispatch(setUsersAC(users));
-  };
-  const setAllUsers = (amount) => {
-    dispatch(setUsersAmountAC(amount));
-  };
-  const toggleFetchStatus = () => {
-    dispatch(changeIsLoadAC());
-  }
-  const {pageNum} = useParams();
-  const setActivePage = (page) => dispatch(setCurrentPageAC(page));
-  const baseUri = 'https://social-network.samuraijs.com/api/1.0';
-  // const baseUri = "https://apidodiku.herokuapp.com/api";
+
+  const { pageNum } = useParams();
+
   useEffect(() => {
-    const apiCall = async () => {
-      const response = await axios.get(
-        `${baseUri}/users?page=${pageNum ?? currentPage}&count=${contentPerPage}`
-      ,{
-          withCredentials: true,
-        });
-      setAllUsers(response.data.totalCount);
-      setUsers(response.data.items)
-    };
-    toggleFetchStatus()
-    apiCall()
-    toggleFetchStatus()
+    dispatch(fetchNewUsers(+pageNum));
   }, []);
 
-  const changeHandler = async (page) => {
-    toggleFetchStatus()
-    const result = await axios.get(
-      `${baseUri}/users?page=${page}&count=${contentPerPage}`
-    );
-    setUsers(result.data.items);
-    setActivePage(page);
-    toggleFetchStatus()
+  const changeHandler = page => {
+    dispatch(fetchNewUsers(page));
   };
+
+  const pagesAmount = Math.ceil(allUsers / contentPerPage);
+  const pagination = usePagination({
+    total: pagesAmount,
+    page: currentPage,
+    onChange: changeHandler,
+  });
   return (
     <Users
-      setUsersAmount={setAllUsers}
-      toggleFollow={toggleFollow}
       users={users}
-      totalUsers={allUsers}
-      activePage={currentPage}
-      usersPerPage={contentPerPage}
       isLoad={isLoad}
-      changeHandler={changeHandler}
+      pagination={pagination}
+      activePage={currentPage}
+      apiToggleFollow={apiToggleFollow}
+      error={isError}
+      buttonDisabled={load}
     />
   );
 }

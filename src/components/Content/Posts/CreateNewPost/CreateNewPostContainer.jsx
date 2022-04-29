@@ -1,9 +1,6 @@
-import {
-  addPostAC,
-  postTextChangeAC,
-} from "../../../../redux/reducers/profile-reducer";
 import CreateNewPost from "./CreateNewPost";
-import {useSelector, useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
+import {addPost, postTextChange} from "../../../../redux/slices/profileSlice";
 
 
 export default function CreateNewPostContainer(){
@@ -15,17 +12,17 @@ export default function CreateNewPostContainer(){
 
   const onTextChange = (e) => {
     const elem = e.target;
-    const action = postTextChangeAC(elem.value);
+    const action = postTextChange(elem.value);
     dispatch(action);
   }
 
-  const addPost = (e) => {
+  const submitHandler = (e) => {
     e.preventDefault();
-    const action = addPostAC();
+    const action = addPost();
     dispatch(action);
   }
 
   return (
-    <CreateNewPost newPostText={inputText} handleChange={onTextChange} submitHandler={addPost}/>
+    <CreateNewPost newPostText={inputText} handleChange={onTextChange} submitHandler={submitHandler}/>
   )
 }

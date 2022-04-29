@@ -1,6 +1,6 @@
-import { newMessageTextAC, addMessageAC } from "../../../redux/reducers/message-reducer";
 import MessagesElements from "./MessagesElements";
-import { connect, useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { messageTextChange, addMessage } from "../../../redux/slices/messagesSlice";
 
 export default function MessagesElementsContainer() {
   const { messages, newMessageText } = useSelector(state => state.messagesPage);
@@ -9,14 +9,14 @@ export default function MessagesElementsContainer() {
 
   const onChangeHandler = e => {
     const { value } = e.target;
-    dispatch(newMessageTextAC(value));
+    dispatch(messageTextChange(value));
   };
 
   const onSubmitHandler = e => {
     if (e) {
       e.preventDefault();
     }
-    dispatch(addMessageAC());
+    dispatch(addMessage());
   };
 
   const keyDownHandler = e => {

@@ -1,7 +1,8 @@
 module.exports = {
-  content: [
-    `./src/**/*.{js,jsx,ts,tsx}`,
-  ],
+  content: [`./src/**/*.{js,jsx,ts,tsx}`],
+  corePlugins: {
+    preflight: true,
+  },
   theme: {
     extend: {},
     container: {
@@ -16,4 +17,5 @@ module.exports = {
       open: ["Open Sans", "sans-serif"],
     },
   },
-}
+  plugins: [require("@tailwindcss/typography")],
+};

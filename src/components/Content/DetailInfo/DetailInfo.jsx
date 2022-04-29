@@ -12,25 +12,26 @@ export default function DetailInfo({
     contactsInfo.push({ socialMediaName: key, link: value });
   }
   const contactsElements = contactsInfo
-    .filter((e) => e.link)
-    .map((c) => (
-      <p>
-        <span className="font-semibold">
+    .filter(e => e.link)
+    .map(c => (
+      <p key={c.link}>
+        <span className='font-semibold'>
           {c.socialMediaName[0].toUpperCase() + c.socialMediaName.slice(1)}
         </span>
         :{` ${c.link}`}
       </p>
     ));
   return (
-    <ContentBlock className="flex-[1] h-min">
+    <ContentBlock className='h-min w-[400px] justify-self-end ml-auto'>
       <Chapter name={"Job"} />
-      <p className="text-xl text-center">
-        Hiring:<span className="text-2xl">{emoji}</span>{" "}
+      <p className='text-xl text-center'>
+        Hiring:<span className='text-2xl'>{emoji}</span>{" "}
       </p>
-      <p className="text-lg text-center">{lookingForAJobDescription ?? "User doesnt add job description"}</p>
+      <p className='text-lg text-center'>
+        {lookingForAJobDescription ?? "User doesnt add job description"}
+      </p>
       <Chapter name={"Contacts"} />
       {contactsElements.length === 0 ? "User doesnt add contacts" : contactsElements}
     </ContentBlock>
   );
 }
-

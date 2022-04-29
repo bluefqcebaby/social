@@ -1,6 +1,5 @@
-import {ADD_MESSAGE, MESSAGE_TEXT_CHANGE_HANDLER} from "../types";
 import chopper from "../../img/chooper.png";
-
+import { createSlice } from "@reduxjs/toolkit";
 
 let initialState = {
   dialogs: [
@@ -53,30 +52,24 @@ let initialState = {
     },
   ],
   newMessageText: "",
-}
-
-const MessageReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case ADD_MESSAGE:
-      return {
-        ...state,
-        messages: [...state.messages, {text: state.newMessageText}],
-        newMessageText: "",
-      }
-    case MESSAGE_TEXT_CHANGE_HANDLER:
-      return {
-        ...state,
-        newMessageText: action.newText,
-      }
-    default:
-      return state;
-  }
 };
 
 
-export const addMessageAC = () => ({ type: ADD_MESSAGE });
-export const newMessageTextAC = text => ({
-  type: MESSAGE_TEXT_CHANGE_HANDLER,
-  newText: text,
+
+const messagesSlice = createSlice({
+  name: "messages",
+  initialState,
+  reducers: {
+    addMessage: (state, { payload }) => {
+      state.messages.push({ text: payload.newMessageText });
+    },
+    messageTextChange: (state, { payload }) => {
+      state.newMessageText = payload.text;
+    },
+  },
 });
-export default MessageReducer;
+
+
+export const {addMessage, messageTextChange} = messagesSlice.actions;
+
+export default messagesSlice.reducer;
