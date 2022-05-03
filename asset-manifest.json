@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/social/static/css/main.bdccd94c.css",
-    "main.js": "/social/static/js/main.cb4e1577.js",
+    "main.css": "/social/static/css/main.bce578ae.css",
+    "main.js": "/social/static/js/main.7f085c45.js",
     "static/media/banner-profile.jpg": "/social/static/media/banner-profile.8e326f70e59c8e25979e.jpg",
     "static/media/chooper.png": "/social/static/media/chooper.376d98f0eac4a8dab78a.png",
     "static/media/avatar.jpg": "/social/static/media/avatar.f089fac6112effaffc4d.jpg",
-    "static/media/dima.jpg": "/social/static/media/dima.1504b3834d087cafeb40.jpg",
-    "static/media/killer.jpg": "/social/static/media/killer.f8b1900ecac00ea90ae4.jpg",
     "static/media/dolboeb.jpg": "/social/static/media/dolboeb.401649bb4a0dd305a97b.jpg",
     "static/media/wt.png": "/social/static/media/wt.26d77626697b9095a84d.png",
-    "static/media/pes.gif": "/social/static/media/pes.4d75764d9f90f5935d12.gif",
+    "static/media/landingImg.svg": "/social/static/media/landingImg.f1624efcba3ac7e36d1e54d5606200bb.svg",
     "index.html": "/social/index.html",
-    "main.bdccd94c.css.map": "/social/static/css/main.bdccd94c.css.map",
-    "main.cb4e1577.js.map": "/social/static/js/main.cb4e1577.js.map"
+    "main.bce578ae.css.map": "/social/static/css/main.bce578ae.css.map",
+    "main.7f085c45.js.map": "/social/static/js/main.7f085c45.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdccd94c.css",
-    "static/js/main.cb4e1577.js"
+    "static/css/main.bce578ae.css",
+    "static/js/main.7f085c45.js"
   ]
 }
