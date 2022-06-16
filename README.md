@@ -1,2 +1,2 @@
-#Frontend for social network
-based on public api
+# Frontend for social network
+this project based on public ap
