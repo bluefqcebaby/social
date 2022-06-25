@@ -1,4 +1,4 @@
 # Frontend for social network
-thats old project
+thats my old project where i used public api to get data😴
 
 my new project im currently working on - [Click🎊](https://github.com/bluefqcebaby/SNetwork)
