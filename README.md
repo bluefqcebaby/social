@@ -1,2 +1,3 @@
 # Frontend for social network
-project based on public api
+thats old project
+my new project im currently working on - [Click🎊](https://github.com/bluefqcebaby/SNetwork)
